@@ -10,15 +10,32 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack{
+                Text("Scroll horizontal")
+                    .font(.title)
+                    .foregroundColor(.black)
+                    .fontWeight(.bold)
+            }
+         
+                .padding(.bottom, 80)
+            ScrollView(.horizontal) {
+                HStack(spacing: 16) {
+                    CardContent(title: "Wash", autor: "Omar Bermejo Osuna", image: "wash", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
+                    CardContent(title: "Wash", autor: "Omar Bermejo Osuna", image: "wash", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
+                    CardContent(title: "Wash", autor: "Omar Bermejo Osuna", image: "wash", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
+                    CardContent(title: "Wash", autor: "Omar Bermejo Osuna", image: "wash", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
+                    
+                         
+                }
+                .padding()
+            }
+           
         }
+  
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+   ContentView()
 }
