@@ -47,7 +47,7 @@ struct CardContent: View {
         }
         .background(Color.white)
         
-        .frame(width: 300, height: 450)
+        .frame(width: 300, height: 500)
         .frame(maxWidth: .infinity, minHeight: 0,alignment: Alignment.center)
         .padding(.horizontal, 10)
         .padding()

@@ -21,9 +21,9 @@ struct ContentView: View {
             ScrollView(.horizontal) {
                 HStack(spacing: 16) {
                     CardContent(title: "Wash", autor: "Omar Bermejo Osuna", image: "wash", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
-                    CardContent(title: "Wash", autor: "Omar Bermejo Osuna", image: "wash", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
-                    CardContent(title: "Wash", autor: "Omar Bermejo Osuna", image: "wash", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
-                    CardContent(title: "Wash", autor: "Omar Bermejo Osuna", image: "wash", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
+                    CardContent(title: "Sheetout", autor: "Kevin F. Chavez", image: "sheet", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
+                    CardContent(title: "Corte", autor: "Jorge A. Nuñez", image: "corte", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
+                    CardContent(title: "Mesas", autor: "Axel U. Benitez", image: "mesas", descripcion: "En esta imagen podemos ver lo que seria el lavado correcto del area del wash")
                     
                          
                 }
